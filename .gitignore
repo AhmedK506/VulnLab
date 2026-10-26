@@ -1,0 +1,28 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# dependencies / builds
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+.next/
+
+# misc
+*.log
+*.db
+*.sqlite3
+.vscode/
+.idea/
+.git_old/
+~$*
+
+# FYP report (keep out for now)
+*.docx
